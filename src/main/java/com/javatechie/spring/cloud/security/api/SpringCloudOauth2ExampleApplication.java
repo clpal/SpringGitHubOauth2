@@ -15,7 +15,7 @@ public class SpringCloudOauth2ExampleApplication {
 	
 	@GetMapping("/")
 	public String message(Principal principal) {
-		return "Hi "+principal.getName()+" welcome to SpringCloudOauth2ExampleApplication";
+		return "Hi "+principal.getName()+" welcome to GitHubSpringCloudOauth2ExampleApplication";
 	}
 
 	public static void main(String[] args) {
